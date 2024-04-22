@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choix des Capteurs</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Système d’irrigation avec LoRa</h1>
+    </header>
+    <main>
+        <div class="select-container">
+            <label for="appareil-select">Sélectionnez l'appareil  </label>
+            <select id="appareil-select">
+                <option value="appareil1">Appareil 1</option>
+                <option value="appareil2">Appareil 2</option>
+                <option value="appareil3">Appareil 3</option>
+                <option value="appareil4">Appareil 4</option>
+                <option value="appareil5">Appareil 5</option>
+            </select>
+        </div>
+       <div class="select-container">
+            <label for="date-select">Sélectionnez la date  </label>
+            <input type="date" id="date-select">
+        </div>
+        <div class="graphe-marge">
+            <canvas id="myChart" width="800" height="400"></canvas>
+        </div>
+        <div id="image-container"></div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7; /* Couleur de fond */
+}
+
+header {
+    background-color: rgba(76, 175, 80, 0.9); /* Fond de couleur verte semi-transparente */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative; /* Permet de positionner le logo par rapport à l'en-tête */
+}
+
+#logo {
+    width: 100px; /* Taille du logo */
+    position: absolute; /* Positionnement absolu */
+    left: 20px; /* Espacement à gauche */
+    top: 50%; /* Centrage vertical */
+    transform: translateY(-50%); /* Centrage vertical */
+}
+
+h1 {
+    margin: 10;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.select-container {
+    margin-bottom: 20px;
+}
+
+.graphe-marge {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+label {
+    font-weight: bold;
+    color: #333; /* Couleur du texte plus foncée pour une meilleure lisibilité */
+}
+
+select, input[type="date"] {
+    padding: 4px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+select:focus, input[type="date"]:focus {
+    outline: none;
+    border-color: #4CAF50;
+}
+
+#image-container {
+    margin-top: 20px;
+}
